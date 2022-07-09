@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="FAShionova.png">
+
+
+<style>
+        .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+form{
+  text-decoration: none;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+</style>        
+</head>
+<body style = "background-color: black;">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html" style = "font-family:monospace;">Home Page</a><br>
+        <a href="main.html" style = "font-family:monospace;">Main Page</a><br>
+        <a href = "description.html" style = "font-family: monospace;">Description Page</a>
+    </div>
+    <table>
+        <tr>
+            <th><button style = "text-decoration: none; background-color: transparent;border: 0px;border-radius: 100%;" onclick="openNav()"><img src = "FAShionova.png" width="100px"; height="100px" style = "border-radius: 100%;" title="Click Me!"></th></button>
+            <th><div style = "background-image: linear-gradient(to right, #e100ff, cyan); width: 1400px; height: 100px; border-radius: 10px; font-size: 90px; font-family: monospace; letter-spacing: 10px; font-weight: lighter; color: white;">
+                CONTACT US
+            </div></th>
+        </tr>
+    </table>
+    <table>
+      <tr>
+        <th>
+          <div style = "background-image: url(image3.0.jpg); width: 450px; height: 250px; margin-left: 120px; margin-top: 50px; background-size: cover; border-style: solid; border-color: white;"></div>
+          <div style = "background-image: url(image3.jpg); width: 450px; height: 250px; margin-left: 120px; margin-top: 50px; background-size: cover; border-style: solid; border-color: white;"></div>
+        </th>
+        <th>
+          <div>
+            <form action="test.html" class="form">
+              <label for="fname"></label>
+              <input type="text" id="fname" name="Full Name" placeholder="FULL NAME" style="width: 300px; height: 50px; border-radius: 10px; color: #b1b1b1; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" title="Edit Me!"><br><br>
+              <label for="gmail"></label>
+              <input type="text" id="gmail" name="Gmail" placeholder="GMAIL" style="width: 300px; height: 50px; border-radius: 10px;color: #b1b1b1; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" title="Edit Me!"><br> <br>
+              <label for="msg"></label>
+              <input type="text" id="msg" name="Message" placeholder="MESSAGE" style="width: 300px; height: 50px; border-radius: 10px; color: #b1b1b1; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" title="Edit Me!">
+              <h2 style="color: white; font-family: monospace; font-size: 40px; letter-spacing: 1px;">FEEDBACK:</h2>
+              <input type="radio" id = "fdbk" name="feedback" value="BAD">
+              <label for="fdbk" value="Bad" style="color: wheat; margin-right: 112px; font-family: monospace; font-size: x-large;">BAD</label><br><br>
+              <input type="radio" id = "fdbk2" name="feedback" value="Intermediate">
+              <label for="fdbk2" value="Intermediate" style="color: wheat; font-family: monospace; font-size: x-large;margin-right: 12px;">INTERMEDIATE</label><br><br>
+              <input type="radio" id = "fdbk3" name="feedback" value="Excellent">
+              <label for="fdbk3" value="Excellent" style="color: wheat;margin-right: 44px; font-family: monospace; font-size: x-large;">EXCELLENT</label><br><br>
+              <input type="submit" value="Submit" style="width: 160px; height: 30px; border-radius: 5px; background-image: linear-gradient(to left, #e100ff, cyan); font-family: monospace; font-size: large; letter-spacing: 2px; font-weight: bolder  ;">
+            </form>
+          </div>
+        </th>
+        <th>
+          <div style = "background-image: url(image4.0.jpg); width: 350px; height: 550px; margin-left: 80px; margin-top: 50px; background-size: cover; border-style: solid; border-color: white;"></div>
+        </th>
+      </tr>
+    </table>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+</html>

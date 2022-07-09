@@ -1,0 +1,116 @@
+<table>
+        <tr>
+            <th><button style = "background-color: transparent;border-radius: 100%;border: 0px; margin-left: 1700px;"><img src = "FAShionova.png" width="80px" height="80px"></button></th>
+            <th> <div style = "background-image: linear-gradient(to right, #e100ff, cyan); width: 1400px ; height: 100px;border-radius: 10px;">
+                <p style="color: white;font-size: 80px;letter-spacing: 25px; font-family: monospace;">CULTURAL FASHIONOVA</p>
+            </div></th>
+        </tr>
+        <tr>
+            <td><div style = "background-image: linear-gradient(to bottom, #e100ff, cyan); width: 750px; height: 350px; margin-left: 1800px; margin-right: -800px; margin-top: 100px;"> \
+            <p style = "color: white; font-family: monospace; letter-spacing: 2px; font-size: x-large; text-align: center;">Write the features that this <br>website will be providing<br> to the user!</p>
+            </div></td>
+            <th><table>
+                <img src = "hahahah.png" width="300px";height="150px"; style = "margin-right: -800px; margin-bottom: 80px;">
+            </table></th>
+            <th><img src = "main.png" width="300px"; height="150px"; style="margin-right: 900px; margin-top: 300px; margin-left: -450;"></th>
+        </tr>
+            <td><div style = "background-image: linear-gradient(to left, #e100ff, cyan); width: 1400px; height: 100px;margin-top: 100px;"></td>
+
+            </div>
+    </table>
+
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="icon" type="image/x-icon" href="FAShionova.png">
+    <style>
+        .topnav {
+  overflow: hidden;
+  background-image: linear-gradient(to right, #e100ff, cyan);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 35px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(255, 0, 0);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: whitesmoke;
+  color: white;
+}
+    </style>
+</head>
+<body style = "background-color: black;">
+    <div class="topnav">
+        <a class="active" href="#home" style="color: black;">Main Page</a>
+        <img src="FAShionova.png" width="80px"; height="80px" style="border-radius: 100%; margin-left: 940px; margin-top: 5px;">
+        <a href="index.html">Home Page</a>
+        <a href="contactUs.html">Contact Us</a>
+        <a href="description.html">Description Page</a>
+    </div>
+    
+    <table>
+        <tr>
+            <th>
+                <div style = "background-color: white; width: 300px; height: 350px; margin-top: 50px; border-style: solid; border-color: black;">
+                    <br><img src = "t-shirt.png" width = "250px"; height="250px" style="animation: rotation 7s infinite linear;"><br><br>
+                    <button style = "margin-bottom: 32px; width: 300.5px; height: 60px; background-color: rgb(155, 155, 155); border-style: solid;"><a href="description.html" style="text-decoration: none; font-size: xx-large ; font-family: monospace;">Description</a></button>
+                </div>
+            </th>
+            <th>
+                <div style = "background-color: white; width: 300px; height: 350px; margin-left: 100px; margin-top: 50px; border-style: solid;">
+                    <img src = "product-2.png" width="300px"; height="290px">
+                    <button style = "margin-bottom: 30px; width: 300.5px; height: 60px; background-color: rgb(155, 155, 155); border-style: solid;"><a href="description.html" style="text-decoration: none; font-size: xx-large ; font-family: monospace;">Description</a></button>
+                </div>
+            </th>
+            <th>
+                <div style = "background-color: white; width: 300px; height: 350px; margin-left: 100px; margin-top: 50px;">
+
+                </div>
+            </th> 
+        </tr>
+        <tr>
+            <th>
+                <div style = "background-color: white; width: 300px; height: 350px; margin-top: 50px;">
+
+                </div>
+            </th>
+            <th>
+                <div style = "background-color: white; width: 300px; height: 350px; margin-left: 100px; margin-top: 50px;">
+
+                </div>
+            </th>
+            <th>
+                <div style = "background-color: white; width: 300px; height: 350px; margin-left: 100px; margin-top: 50px;">
+
+                </div>
+            </th>
+        </tr>
+    </table>
+    <style>
+    @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
+    </style>
+</body>
+</html>

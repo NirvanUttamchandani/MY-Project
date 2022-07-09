@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="icon" type="image/x-icon" href="FAShionova.png">
+    <style>
+        .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+    </style>        
+</head>
+<body style = "background-color: black;color: white;">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="main.html" style = "font-family:monospace;">Main Page</a><br>
+        <a href="contactUs.html" style = "font-family:monospace;">Contact Us</a><br>
+        <a href = "description.html" style = "font-family: monospace;">Description Page</a>
+    </div>
+
+    <table>
+        <th><button style = "background-color: transparent;border-radius: 100%;border: 0px;" title = "Click me!"onclick="openNav()"><img src = "FAShionova.png" width="80px" height="80px"></button></th>
+        <th><div style = "background-image: linear-gradient(to right, #e100ff, cyan); width: 1400px ; height: 100px;border-radius: 10px;">
+            <p style="color: white;font-size: 80px;letter-spacing: 25px; font-family: monospace;">CULTURAL FASHIONOVA</p>
+        </div></th>
+    </table>
+    <table>
+        <tr>
+            <td><div style = "background-image: linear-gradient(to bottom, #e100ff, cyan); width: 800px; height: 400px;margin-left: 95px;border-radius: 10px;"><p style = "font-family: monospace; letter-spacing: 2px; font-size: x-large; text-align: center; margin-top: 50px;"><br><br>This website is made for everybody. The goal is to give <br> cultural fashion a platform to showcase their worth. Basically, this website is like an e-commerce <br>website but has a particular range and style of <br>products.<br><br>The features of this website include:
+            <ol style = "font-size: x-large; font-family: monospace;">
+                <li>An e-commerce website</li>
+                <li>Can learn the history behind the products</li>
+                <li>Has multiple pages and animations on products</li>
+                <li>Has a rating feature</li>
+                <li>Provides and focuses with detail on each products</li>
+            </ol>
+            </p></div></td>
+            <td><table>
+                <tr>
+                    <td><img src = "main.png" width="250px"; height="150px"; style = "margin-top: 90px; margin-left: 200px; margin-bottom: 20px;"></td>
+                </tr>
+                <tr>
+                    <td><img src = "hahahah.png" width="250px"; height="150px" style = "margin-left: 200px;"></td>
+                </tr>
+            </table></td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <th><div style = "background-image: linear-gradient(to right, #e100ff, cyan); width: 1400px ; height: 100px;border-radius: 10px; margin-left: 90px;margin-top: 35px;">
+            <marquee scrollamount = 12><img src = "Untitled1111.png" width="550px"; height="100px"></marquee>
+        </div></th>
+    </table>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+</html>
